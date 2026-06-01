@@ -1,10 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var user = {
+const user = {
     name: "John",
     email: "[EMAIL_ADDRESS]",
     isActive: true
 };
-function createUser(name, email, isPaid) {
-    return user;
-}
+function createUser({ name, isPaid }) { }
+createUser({ name: "John", isPaid: true });
+function createUser2(user) { }
+export {};
